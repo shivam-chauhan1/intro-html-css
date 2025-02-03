@@ -70,8 +70,14 @@ nav a:hover {
   background: darkred;
 }
 
+.cards-wrapper {
+  background: #f8f8f8;
+  padding: 20px 0;
+}
+
 .cards {
-  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -84,6 +90,7 @@ article {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  box-sizing: border-box;
 }
 
 .card-image {
@@ -98,4 +105,20 @@ footer {
   text-align: center;
   margin-top: 20px;
   clear: both;
+}
+
+.footer-icons {
+    margin-top: 10px;
+}
+
+.footer-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.footer-icons a:hover {
+    color: red;
 }
