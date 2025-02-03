@@ -18,12 +18,19 @@
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="#" class="active">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><input type="text" placeholder="Search..." /></li>
-        </ul>
+        <div class="nav-container">
+          <div class="logo">
+            <img src="logo.jpg" alt="Logo" class="logo-img" />
+          </div>
+          <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="search-bar">
+            <input type="text" placeholder="Search..." />
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -31,18 +38,24 @@
       <div class="banner-content">
         <h1>Banner headline</h1>
         <p>
-          Lorem ipsum dolor sit amet et delectus accommodare his consul
-          copiosae.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, sint
+          porro repellendus, atque cum aperiam accusantium, placeat officiis
+          error dolorem delectus corrupti repellat. Deleniti voluptatem dolorem
+          sed voluptatum iure at!
         </p>
         <button class="cta">Click Me!</button>
       </div>
-      <div class="banner-image"></div>
+      <div class="banner-image">
+        <img src="img.jpeg" alt="Banner" class="banner-img" />
+      </div>
     </section>
 
     <section class="cards-wrapper">
       <div class="cards">
         <article>
-          <div class="card-image"></div>
+          <div class="card-image">
+            <img src="img.jpeg" alt="Card" class="card-img" />
+          </div>
           <h2>Headline</h2>
           <p>
             Lorem ipsum dolor sit amet et delectus accommodare his consul
@@ -51,7 +64,9 @@
           <a href="#">Read more</a>
         </article>
         <article>
-          <div class="card-image"></div>
+          <div class="card-image">
+            <img src="img.jpeg" alt="Card" class="card-img" />
+          </div>
           <h2>Headline</h2>
           <p>
             Lorem ipsum dolor sit amet et delectus accommodare his consul
@@ -60,7 +75,9 @@
           <a href="#">Read more</a>
         </article>
         <article>
-          <div class="card-image"></div>
+          <div class="card-image">
+            <img src="img.jpeg" alt="Card" class="card-img" />
+          </div>
           <h2>Headline</h2>
           <p>
             Lorem ipsum dolor sit amet et delectus accommodare his consul
@@ -72,6 +89,9 @@
     </section>
 
     <footer>
+      <div class="footer-image">
+        <img src="logo.jpg" alt="Logo" class="logo-img" />
+      </div>
       <div class="footer-links">
         <a href="#">Link one</a>
         <a href="#">Link two</a>
@@ -79,13 +99,13 @@
         <a href="#">Link four</a>
       </div>
       <div class="footer-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
         <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
       </div>
       <p>
         &copy; 2025 To The New. All rights reserved.
-        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a>
       </p>
     </footer>
   </body>
