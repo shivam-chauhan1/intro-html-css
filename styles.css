@@ -1,0 +1,101 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #f8f8f8;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+}
+
+nav a.active,
+nav a:hover {
+  color: red;
+}
+
+.banner {
+  background: #eee;
+  padding: 40px;
+  overflow: hidden;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.banner-content {
+  width: 50%;
+  float: left;
+}
+
+.banner h1 {
+  font-size: 2rem;
+}
+
+.banner-image {
+  width: 45%;
+  float: right;
+  height: 200px;
+  background: #ddd;
+}
+
+.cta {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta:hover {
+  background: darkred;
+}
+
+.cards {
+  padding: 20px;
+  overflow: hidden;
+}
+
+article {
+  width: 30%;
+  float: left;
+  margin: 0 1.5%;
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-image {
+  height: 150px;
+  background: #ddd;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  clear: both;
+}
